@@ -41,12 +41,13 @@ const LargeNav=()=>{
          <span className="text-zomato-400">
              <HiLocationMarker/>
          </span>
-         <input type="text" placeholder="Mumbai"/>
+         <input type="text" placeholder="Mumbai" className="focus:outline-none"/>
          <IoMdArrowDropdown/>
          </div>
-         <div className="flex items-center gap-2">
+         <div className="flex w-full items-center gap-2">
              <RiSearch2Line/>
              <input type="search" placeholder="Search for restaurant, cuisine or a dish"
+             className="w-full focus"outline-none
              />
      </div>
      </div>
