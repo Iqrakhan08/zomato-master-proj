@@ -138,7 +138,7 @@ const FoodTab=()=>{
     <div>
         <MobileTabs/>
         <LargeTabs/>
-        </div>;
+        </div>
         </>
     );
 };
