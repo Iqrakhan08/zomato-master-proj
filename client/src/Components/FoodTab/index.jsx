@@ -34,7 +34,7 @@ const MobileTabs=()=>{
   
   return(
          <>
-    <div className="lg:hidden bg-white shadow-lg p-3 fixed bottom-0 w-full flex items-center justify-between md:justify-evenly text-gray-500 border">
+    <div className="lg:hidden bg-white shadow-lg p-3 fixed bottom-0 z-10 w-full flex items-center justify-between md:justify-evenly text-gray-500 border">
       {allTypes.map((items)=>(
           <Link to={`/${items.id}`}>
            <div className={
@@ -44,7 +44,7 @@ const MobileTabs=()=>{
             }
      >
          <div className={
-             type===items.id && "absolute -top-2 w-full h-2 border-t-2 border-zomato-400"
+             type===items.id && "absolute -top-3 w-full h-2 border-t-2 border-zomato-400"
          }
          />
            {items.icon}
@@ -92,7 +92,7 @@ const LargeTabs=()=>{
     const {type}=useParams();
     return (
      <>
-    <div className="hidden lg:flex gap-14 container px-20 mx-auto">
+    <div className="hidden lg:flex gap-14 container px-20 my-8 mx-auto">
        {allTypes.map((items)=>(
            <Link to={`/${items.id}`}>
         <div 
