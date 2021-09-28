@@ -1,17 +1,17 @@
 import React from "react";
 
 //components
-import DiningCarousel from "./DiningCarousel";
+import NightLifeCarousel from "./NightLifeCarousel";
 
-const Dining=()=>{
+const NightLife=()=>{
     return (
         <div>
-            <DiningCarousel/>
+            <NightLifeCarousel/>
             <h1 className="text-xl my-4 md:my-8 md:text-3xl md:font-semibold">
-                Dine-Out Restaurants in Mumbai
+                Nightlife Restaurants in Mumbai
             </h1>
         </div>
     );
 };
 
-export default Dining;
+export default NightLife;
