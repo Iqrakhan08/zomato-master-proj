@@ -43,7 +43,7 @@ const ImageGrid=(props)=>{
                  View Gallery
                  </h4>
               </div>
-           <div className="w-full h-full relative">
+           <div className="w-full h-2/4 relative">
           <img
               src={props.images[4]}
               alt="restaurant image"
@@ -54,7 +54,7 @@ const ImageGrid=(props)=>{
               <div className="bg-black p-3 rounded-full bg-opacity-50">
               <AiOutlineCamera />
               </div>
-              <h4 className="absolute inset-y-2/4 z-20 w-full h-full text-center text-white font-semibold">
+              <h4 className="">
                  View Gallery
                  </h4>
                  </div>

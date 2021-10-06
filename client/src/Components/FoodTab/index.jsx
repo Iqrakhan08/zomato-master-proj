@@ -78,7 +78,7 @@ const LargeTabs=()=>{
             imageDefault:"https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png",
             imageActive:"https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png",
             name:"Night life",
-            activeColor:"puple",
+            activeColor:"purple",
         },
         {
             id:`nutri`,
