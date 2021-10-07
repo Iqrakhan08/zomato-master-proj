@@ -36,18 +36,6 @@ const OrderOnline=()=>{
                  },
                 ]}
                />
-                <FoodList
-                 title="Pizza"
-                 items={[
-                 {
-                 price:"315",
-                 rating:3,
-                 description:"Who doesn’t love a good bowl of Hakka Noodles with their food?",
-                 title:"Supreme Hakka Noodles",
-                 image:"https://b.zmtcdn.com/data/dish_photos/9e8/1e1ca8b551f8b40b022ac7504095e9e8.jpg?fit=around|130:130&crop=130:130;*,*",
-                 },
-                ]}
-               />
            </section>
            </div>
         </div>

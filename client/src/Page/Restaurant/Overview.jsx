@@ -61,7 +61,7 @@ const Overview=()=>{
         <>
         <div className="flex flex-col md:flex-row relative">
             <div className="w-full md:w-8/12">
-                <h2 className="fony-semibold text-lg md:text-xl my-4">About this place</h2>
+                <h2 className="font-semibold text-lg md:text-xl my-4">About this place</h2>
            <div className="flex justify-between items-center">
                <h4 className="text-lg font-medium">Menu</h4>
                <Link to={`/restaurant/${id}/menu`}>
@@ -73,8 +73,12 @@ const Overview=()=>{
                <div className="flex flex-wrap gap-3 my-4">
                  <MenuCollection 
                  menuTitle="Menu" pages="3" 
-                 image="https://b.zmtcdn.com/data/menus/202/19726202/08637ed5d09467c8acbf9f3edd1cfcfc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"/>
-               </div>
+                 image={[
+                 "https://b.zmtcdn.com/data/menus/202/19726202/08637ed5d09467c8acbf9f3edd1cfcfc.jpg",
+                  "https://b.zmtcdn.com/data/menus/063/19655063/df91d81e21d9e5e7f12436d559d1e0d7.jpg",
+                 ]}
+                 />
+                  </div>
                <h4 className="text-lg font-medium my-4">Cuisines</h4>
                    <div className="flex flex-wrap gap-2">
                        <span className="border text-cyan-400 px-2 py-1 rounded-full">
@@ -138,7 +142,7 @@ const Overview=()=>{
           <Mapview
           title="Ginkgo Pan Asian Kitchen"
           phno="+918591419470"    
-          mapLocation="19.02335611354051, 72.84645042197391"
+          mapLocation={[19.02335611354051, 72.84645042197391]}
           address="Shop 1, Dharamputra, Pritam Estate, Dr. B.A. Road, Dadar East, Mumbai"
              />
             </aside>
